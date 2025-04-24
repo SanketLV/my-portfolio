@@ -1,5 +1,10 @@
 import { OrbitingCircles } from "./OrbitingCircle";
 
+/**
+ * Displays two concentric orbiting circles of technology skill icons.
+ *
+ * Renders a set of technology and framework logos in two animated circular arrangements with different sizes, speeds, and directions.
+ */
 export default function Frameworks() {
   const skills = [
     "auth0",
