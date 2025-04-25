@@ -1,6 +1,7 @@
 import About from "./sections/About";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
+import Projects from "./sections/Projects";
 
 /**
  * Renders the main application layout with navigation, hero, about, and placeholder sections.
@@ -13,13 +14,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
       <section className="min-h-screen" />
       <section className="min-h-screen" />
       <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      {/* projects */}
       {/* experience */}
       {/* testimonials */}
       {/* contact */}
