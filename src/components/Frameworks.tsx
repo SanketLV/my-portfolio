@@ -8,21 +8,22 @@ import { OrbitingCircles } from "./OrbitingCircle";
 export default function Frameworks() {
   const skills = [
     "auth0",
-    "blazor",
-    "cplusplus",
-    "csharp",
+    "visualstudiocode",
+    "nodejs",
+    "postgresql",
+    "typescript",
+    "python",
+    "nextjs",
+    "expressjs",
+    "mongodb",
     "css3",
-    "dotnet",
-    "dotnetcore",
     "git",
     "html5",
     "javascript",
-    "microsoft",
     "react",
     "sqlite",
     "tailwindcss",
     "vitejs",
-    "wordpress",
   ];
 
   return (

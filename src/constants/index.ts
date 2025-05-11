@@ -38,33 +38,31 @@ export interface Review {
 export const myProjects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "File Management System - StoreIt",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "💾 Full-Stack Cloud Storage — Developed a web-based file storage and management solution using Next.js and Appwrite, enabling users to upload, view, and manage files in a cloud environment",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "📊 Advanced Features — Implemented file categorization, usage statistics tracking, and a responsive user interface for optimal user experience",
+      "🛠️ Technology Stack — Built with Next.js, TypeScript, Appwrite, React, Tailwind CSS, ShadCN, and other modern web technologies",
     ],
-    href: "",
+    href: "https://store-it-beryl.vercel.app/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/storeit.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "TypeScript",
+        path: "/assets/logos/typescript.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "AppWrite",
+        path: "/assets/logos/appwrite.svg",
       },
       {
         id: 4,
@@ -75,33 +73,32 @@ export const myProjects: Project[] = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Assistly AI App",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "🤖 Conversational AI Platform — Created a React-based web application with integrated chatbot functionality powered by the TogetherAI API.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "📱 Data Management — Utilized GraphQL and Apollo Client for efficient data interactions, implementing serverless functions through Next.js API routes.",
+      "🔐 User Authentication — Integrated Clerk for secure user authentication and identity management.",
+      "🧰 Technology Stack — Built with Next.js, Clerk, TypeScript, Tailwind CSS, DaisyUI, GraphQL, and PostgreSQL",
     ],
-    href: "",
+    href: "https://assistly-ai-app-two.vercel.app/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/assistly_ai.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "Clerk",
+        path: "/assets/logos/clerk.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "PostgreSQL",
+        path: "/assets/logos/postgresql.svg",
       },
       {
         id: 4,
@@ -112,144 +109,70 @@ export const myProjects: Project[] = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Uber Clone",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "🚗 Full-stack Ride-Hailing Platform — Developed a comprehensive ride-sharing application clone with React-Vite frontend and Node.js-Express backend for seamless transportation services",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "🔒 Secure Authentication — Implemented JWT tokens and Bcrypt hashing for robust user and captain signup/login and profile management",
+      "⚡ Real-time Updates — Engineered Socket.IO/WebSocket communication for instant driver-passenger status notifications and ride tracking",
+      "🗺️ Interactive Mapping — Created dynamic pickup/drop-off selection and route rendering powered by Google Maps JavaScript API",
+      "🔄 RESTful Architecture — Built Express.js API endpoints with MongoDB (Mongoose) schemas for ride booking, management, and persistent data storage",
     ],
-    href: "",
+    href: "https://github.com/SanketLV/Uber",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/uber-clone.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Express.js",
+        path: "/assets/logos/expressjs.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Interactive Portfolio Website",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "✨ Modern Developer Showcase — Created an immersive, interactive portfolio using Three.js and React to highlight projects and professional experience with engaging 3D elements.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "🌐 3D Visualization — Implemented Three.js for stunning 3D elements and animations that create an engaging, memorable user experience",
+      "⚡ Performance Optimization — Utilized React with Vite for fast loading times and smooth interactions, ensuring optimal performance across devices",
+      "🎨 Custom Design — Designed and developed a unique, responsive interface with Tailwind CSS that effectively showcases projects and skills",
+      "🔄 Dynamic Content — Built with TypeScript for type safety and implemented modular components for easy content updates and maintenance",
     ],
-    href: "",
+    href: "https://sanket.is-a.dev/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/portfolio.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Three.js",
+        path: "/assets/logos/threejs.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "TypeScript",
+        path: "/assets/logos/typescript.svg",
       },
       {
         id: 4,
@@ -258,13 +181,87 @@ export const myProjects: Project[] = [
       },
     ],
   },
+  // {
+  //   id: 5,
+  //   title: "WordPress Custom Theme",
+  //   description:
+  //     "A fully customizable WordPress theme optimized for performance and SEO.",
+  //   subDescription: [
+  //     "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
+  //     "Integrated Tailwind CSS for modern styling and UI enhancements.",
+  //     "Optimized SEO and page speed using Vite.js for fast builds.",
+  //     "Implemented custom widgets and plugin compatibility for extended functionality.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/wordpress-theme.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "WordPress",
+  //       path: "/assets/logos/wordpress.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "HTML5",
+  //       path: "/assets/logos/html5.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "CSS3",
+  //       path: "/assets/logos/css3.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Vite.js",
+  //       path: "/assets/logos/vitejs.svg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Online Learning Platform",
+  //   description:
+  //     "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+  //   subDescription: [
+  //     "Built using Blazor WebAssembly for a seamless SPA experience.",
+  //     "Implemented video streaming with Azure Media Services.",
+  //     "Added a quiz system with dynamic question generation and real-time grading.",
+  //     "Integrated Stripe API for secure payment processing.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/elearning.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Blazor",
+  //       path: "/assets/logos/blazor.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Azure",
+  //       path: "/assets/logos/azure.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Stripe",
+  //       path: "/assets/logos/stripe.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const mySocials: Social[] = [
   {
     name: "WhatsApp",
-    href: "https://wa.me/",
-    icon: "/assets/socials/whatsApp.svg",
+    href: "https://github.com/SanketLV",
+    icon: "/assets/socials/github-white.svg",
   },
   {
     name: "Linkedin",
@@ -280,36 +277,35 @@ export const mySocials: Social[] = [
 
 export const experiences: Experience[] = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
+    title: "SDE - 1",
+    job: "Dotnitron Technologies",
     date: "2023-2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "🚀 Developed POC Projects — Leveraged Next.js, Plasmo, and Python FastAPI to create and refine proof-of-concept projects, conducting thorough viability assessments aligned with business requirements",
+      "🤝 Cross-Team Collaboration — Fostered effective communication and teamwork by collaborating closely with various teams to ensure technical solutions aligned perfectly with business objectives",
+      "🔍 Technology Research — Conducted comprehensive research to identify emerging technologies and innovative products that strategically supported company goals and market positioning",
+      "📈 Technical Growth Initiatives — Implemented efficient development practices that simultaneously enhanced technical capabilities and supported long-term business growth strategies",
     ],
   },
+  // {
+  //   title: "Back-End Developer",
+  //   job: "Car Manufacture",
+  //   date: "2023-2024",
+  //   contents: [
+  //     "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
+  //     "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+  //     "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
+  //     "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
+  //     "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+  //   ],
+  // },
   {
     title: "Freelance Developer",
     job: "Self-Employed",
-    date: "2025-Present",
+    date: "2024-Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "🎨 Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
+      "🔄 Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
     ],
   },
 ];

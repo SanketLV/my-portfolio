@@ -56,8 +56,13 @@ const Navbar = () => {
               window.scrollTo({ top: 0, behavior: "smooth" });
               setIsOpen(false);
             }}
-            className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
+            className="flex items-center gap-2 text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
+            <img
+              src="/assets/logo.png"
+              alt="logo"
+              className="size-12 rounded-full p-1"
+            />
             Sanket
           </button>
 
